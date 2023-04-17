@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Krushi Vikas</title>
+	<style>
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, sans-serif;
+	}
+	
+	header {
+		background-color: #333333;
+		color: #fff;
+		padding: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	
+	.logo {
+		display: flex;
+		align-items: center;
+	}
+	
+	.logo img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	nav li {
+		margin-right: 20px;
+	}
+	
+	nav a {
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		transition: color 0.3s ease-in-out;
+	}
+	
+	
+	.top {
+		place-self:end;
+		position:sticky;
+		bottom:20px;
+		margin-right:20px;
+		margin-top:100vh;
+		text-decoration: none;
+		padding: 10px;
+		font-family: sans-serif;
+		color: #fff;
+		background: #000;
+		border-radius: 100px;
+		white-space:nowrap;
+	  }
+	  
+	  p {
+		font-size: 25px;
+	  }
+	 
+	  
+	
+	nav a:hover {
+		color: #26ff00;
+	}
+	
+	
+	main {
+		padding: 20px;
+	}
+	
+	section {
+		margin-bottom: 40px;
+	}
+	
+	.tag{
+		color: #a0ee92;
+		font-family:serif;
+		font-size:20px;
+		background-color: #333333;
+		padding-left:30px;
+		padding-bottom:10px;
+	}
+	h2 {
+		color: #333;
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+	
+	p {
+		color: #5f5a5a;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	
+	.hover{
+	  background-color: #0b0b0b2c;
+	}
+	.hover:hover{
+	  background-color:  #b6ec8c;
+	  display: block;
+	  color: #0a0a0a;
+	}
+	.f{
+	  background-color: #ffffff1e;
+	
+	}
+	
+	.feature {
+		font-size:0.6cm;
+		text-align: center;
+		font-weight: 500;
+		border-style: outset;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	  }
+	.about{
+		border-style: outset;
+	}
+	.x{
+		position:absolute;
+		-webkit-animation: fade 24s infinite;
+		animation: fade 24s infinite;
+	  }
+	  #a{
+		animation-delay: 0s;
+		
+	  }
+	  #b {
+		
+		animation-delay: 8s;
+	  }
+	  #c{
+		
+		animation-delay: 16s;
+	  }
+	  @-webkit-keyframes fade {
+		0% {
+		  opacity: 1;
+		}
+		20% {
+		  opacity: 1;
+		}
+		34% {
+		  opacity: 0;
+		}
+		88% {
+		  opacity: 0;
+		}
+		100% {
+		  opacity: 1;
+		}
+	  }
+	  @keyframes fade {
+		0% {
+		  opacity: 1;
+		}
+		20% {
+		  opacity: 1;
+		}
+		34% {
+		  opacity: 0;
+		}
+		88% {
+		  opacity: 0;
+		}
+		100% {
+		  opacity: 1;
+		}
+	  }
+	.left{
+		text-align: right;
+	  }
+	  .fe{
+		padding-left: 1cm;
+		padding-right: 1cm;
+		border-color: black;
+	  }
+	
+	footer{
+		background-color: #333333;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+		font-size: 14px;
+	}
+	p1 a{
+		color: #e1ff00;
+	}
+	
+
+svg {
+  display: none;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+html {
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.subnav {
+			float:right;
+			font-size: 18px; 
+			
+			
+		  }
+		  
+		  .subnav .subnavbtn {
+			border: none;
+			outline: none;
+			color:rgb(192, 204, 28);
+		  
+			background-color: inherit;
+			font-family: inherit;
+		
+		  }
+		  
+		  
+		  .subnav-content {
+			display: none;
+			position: absolute;
+		  
+			background-color: rgb(44, 49, 44);
+			z-index: 1;
+		  }
+		  
+		  .subnav-content a {
+			float:left;
+			color: white;
+			text-decoration: none;
+		  }
+		  
+		  .subnav-content a:hover {
+			background-color: rgb(48, 147, 158);
+			color: rgb(246, 243, 243);
+		  }
+		  
+		  .subnav:hover .subnav-content {
+			display:block;
+		  }
+
+</style> 
+	
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="images//logo.png" alt="Logo" width="70px">
+			<h1>Krushi Vikas</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="main.html">Home</a></li>
+				<li><a href="govern.html">Government Schemes</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+				<li><a href="talk.html">Farmer's Talk</a></li>
+				<div class="subnav">
+					<a class="subnavbtn">Information about</a>
+					<div class="subnav-content">
+					<p><a href="seeds.html">Seeds</a></p>
+					<p><a href="fertilizers.html">Fertilizer</a></p>
+					</div>
+				</div>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="tag"><b>Department for Agriculture and Farmers welfare</b></div>
+	<br>
+	<div class="im">
+		<img class="x" id="c" src="images\\1.jpg"height="70%"width="100%">
+		<img class="x" id="b" src="images\\2.jpg"height="70%"width="100%">
+		<img class="x" id="a" src="images\\4.jpg"height="70%"width="100%">
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<main><center>
+		<section class="about">
+			<h1 style="height: 1cm; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size:1cm;">Agriculture Technology</h1>
+			<p>Agricultural technology or agrotechnology (abbreviated agtech, agritech, AgriTech, or agrotech) is the use of technology in agriculture, horticulture, and aquaculture with the aim of improving yield, efficiency, and profitability. Agricultural technology can be products, services or applications derived from agriculture that improve various input/output processes.</p>
+			<p>Advances in agricultural science, agronomy, and agricultural engineering have led to applied developments in agricultural technology.</p>
+			<p> The history of agriculture has been shaped by technological advances. Historians have described a number of agricultural revolutions, which identify major shifts in agricultural practice and productivity. These revolutions have been closely connected to technological improvements. Irrigation technology was developed independently by a number of different cultures, with the earliest known examples dated to the 6th millennium BCE in Khuzistan in the south-west of present-day Iran.
+		
+			A major turning point for agricultural technology is the Industrial Revolution, which introduced agricultural machinery to mechanise the labour of agriculture, greatly increasing farm worker productivity. In modern mechanised agriculture powered machinery has replaced many farm jobs formerly carried out by manual labour or by working animals such as oxen, horses and mules.</p>
+		
+			<p>Advances in the 19th century included the development of modern weather forecasting and invention of barbed wire. Improvement to portable engines and threshing machines led to their widespread adoption.
+		
+				The 20th century saw major advances in agricultural technologies, including the development of synthetic fertilizers and pesticides, and new agricultural machinery including mass produced tractors and agricultural aircraft for aerial application of pesticides. More recent advances have included agricultural plastics, genetically modified crops, improved drip irrigation, and soilless farming techniques such as hydroponics, aquaponics, and aeroponics.
+				
+				In the first decades of the 21st century, Information Age technologies have been increasingly applied to agriculture. Agricultural robots, agricultural drones and driverless tractors have found regular use on farms, while digital agriculture and precision agriculture make use of extensive data collection and computation to improve farm efficiency. Precision agriculture includes such areas as precision beekeeping, precision livestock farming, and precision viticulture.</p>
+		</section></center>
+		<section class="f">
+			<div class="fe">
+				<div class="feature">
+					<h2><span>Features</span></h2>
+					<p><b>All the features that are provided by this website.</b></p>
+				</div>
+				<div>
+					<div>
+						<div class="hover">
+							
+								<img src="images\\weather.png" alt="weather" width="120" height="120">
+							
+								<div class="content">
+									<h3>Weather Report</h3>
+									<p>Get all information needed on the weather of your current location or by searching for the location.</p>
+								</div>
+							
+						</div>
+					</div>
+					<div class="left">
+						<div class="hover">
+							
+								<img src="images\\seed.jpeg" alt="seed" width="120" height="120">
+							
+							
+								<div class="content">
+									<h3>Seed Price & Info</h3>
+									<p>Realtime Seed Price along with all the Knowledge you need about different types of seeds</p>
+								</div>
+							
+						</div>
+					</div>
+					<div>
+						<div class="hover">
+							
+								<img src="images\\gover.png" alt="Govt Schemes" width="120" height="120">
+							
+							
+								<div class="content">
+									<h3>Goverment Schemes</h3>
+									<p>Latest Government Schemes for maximizing the benefits and minimizing the loss.</p>
+								</div>
+						
+						</div>
+					</div>
+					<div class="left">
+						<div class="hover">
+							
+								<img src="images\\tech.jpg" alt="Tech" width="120" height="120">
+							
+							
+								<div class="content">
+									<h3>Technological Knowledge</h3>
+									<p>The knowledge you need to enhance your crop production: Solar Panel, etc.</p>
+							
+							</div>
+						</div>
+					</div>
+					<div >
+						<div class="hover">
+							
+								<img src="images\\internet.png" alt="Internet" width="120" height="120">
+							
+								<div class="content">
+									<h3>Low Internet Consumption</h3>
+									<p>Even with poor internet connectivity, you can access this website.</p>
+							
+							</div>
+						</div>
+					</div>
+					<div class="left">
+						<div class="hover">
+							
+								<img src="images\\uiux.png" alt="Ui Ux" width="120" height="120">
+							
+								<div class="content">
+									<h3>Easy to Use</h3>
+									<p>Simple visuals are used making it easy to understand.</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</main>
+	
+	<footer>
+		<p1>For more details <br>
+			<a href="https://en.wikipedia.org/wiki/Data_science">agro.com</a></p1><br>
+			<p1>Developed by :- <br> Harsh Joshi <br>Tejas Punwatkar <br> Anurag Gaddamwar<br> Sakshi Didpaye <br></p1>
+			<p1>Contact US <br>
+				  <a href="number">8459556333</a></p1>
+	</footer>
+	<a href="#" class="top">Back to Top &#8593;</a>
+</body>
+</html>

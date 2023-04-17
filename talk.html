@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agrotech - Farmers Section</title>
+	<style>
+    body {
+		margin: 0;
+		padding: 0;
+		font-family: Arial, sans-serif;
+	}
+	
+	header {
+		background-color: #333333;
+		color: #fff;
+		padding: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	
+	.logo {
+		display: flex;
+		align-items: center;
+	}
+	
+	.logo img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	nav li {
+		margin-right: 20px;
+	}
+	
+	nav a {
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		transition: color 0.3s ease-in-out;
+	}
+	
+	
+	.top {
+		place-self:end;
+		position:sticky;
+		bottom:20px;
+		margin-right:20px;
+		margin-top:100vh;
+		text-decoration: none;
+		padding: 10px;
+		font-family: sans-serif;
+		color: #fff;
+		background: #000;
+		border-radius: 100px;
+		white-space:nowrap;
+	  }
+	  
+	  p {
+		font-size: 25px;
+	  }
+	 
+	  
+	
+	nav a:hover {
+		color: #26ff00;
+	}
+	
+	
+	main {
+		padding: 20px;
+	}
+	
+	section {
+		margin-bottom: 40px;
+	}
+	
+	.tag{
+		color: #a0ee92;
+		font-family:serif;
+		font-size:20px;
+		background-color: #333333;
+		padding-left:30px;
+		padding-bottom:10px;
+	}
+	h2 {
+		color: #333;
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+	
+	p {
+		color: #5f5a5a;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	
+	.hover{
+	  background-color: #0b0b0b2c;
+	}
+	.hover:hover{
+	  background-color:  #b6ec8c;
+	  display: block;
+	  color: #0a0a0a;
+	}
+	footer{
+		background-color: #333333;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+		font-size: 14px;
+	}
+	p1 a{
+		color: #e1ff00;
+	}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.subnav {
+			float:right;
+			font-size: 18px; 
+			
+			
+		  }
+		  
+		  .subnav .subnavbtn {
+			border: none;
+			outline: none;
+			color:rgb(192, 204, 28);
+		  
+			background-color: inherit;
+			font-family: inherit;
+		
+		  }
+		  
+		  
+		  .subnav-content {
+			display: none;
+			position: absolute;
+		  
+			background-color: rgb(44, 49, 44);
+			z-index: 1;
+		  }
+		  
+		  .subnav-content a {
+			float:left;
+			color: white;
+			text-decoration: none;
+		  }
+		  
+		  .subnav-content a:hover {
+			background-color: rgb(48, 147, 158);
+			color: rgb(246, 243, 243);
+		  }
+		  
+		  .subnav:hover .subnav-content {
+			display:block;
+		  }
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+			color: #444;
+			line-height: 1.5;
+		}
+		h2 {
+			color: #008000;
+			border-bottom: 1px solid #ccc;
+			padding-bottom: 10px;
+			margin-top: 30px;
+		}
+
+		ul {
+			list-style-type: none;
+			padding-left: 0;
+		}
+
+		li {
+			margin-bottom: 10px;
+		}
+
+		a {
+			color: #008000;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body><header>
+	<div class="logo">
+		<img src="images//logo.png" alt="Logo" width="70px">
+		<h1>Krushi Vikas</h1>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="main.html">Home</a></li>
+			<li><a href="govern.html">Government Schemes</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+			<li><a href="talk.html">Farmer's Talk</a></li>
+			<div class="subnav">
+				<a class="subnavbtn">Information about</a>
+				<div class="subnav-content">
+				<p><a href="seeds.html">Seeds</a></p>
+				<p><a href="fertilizers.html">Fertilizer</a></p>
+				</div>
+			</div>
+		</ul>
+	</nav>
+</header>
+	<center><h2> Farmers Section</h2></center>
+	
+	<h2>Information for Farmers</h2>
+	<ul>
+		<li><a href="#crop-planning">Crop Planning</a></li>
+		<li><a href="#soil-management">Soil Management</a></li>
+		<li><a href="#pest-management">Pest Management</a></li>
+		<li><a href="#irrigation">Irrigation</a></li>
+		<li><a href="#crop-marketing">Crop Marketing</a></li>
+	</ul>
+
+	<h2 id="crop-planning">Crop Planning</h2>
+	<p>We provide detailed information on crop planning, including crop selection, planting times, and yield estimates. Our experts are available to assist you in choosing the right crops for your farm, taking into account soil conditions, climate, and market demand.</p>
+
+	<h2 id="soil-management">Soil Management</h2>
+	<p>Good soil management is essential for successful crop production. Our team of experts can provide you with information on soil health, nutrient management, and soil conservation practices. We also offer soil testing services to help you determine the nutrient content of your soil.</p>
+
+	<h2 id="pest-management">Pest Management</h2>
+	<p>Pests and diseases can significantly reduce crop yields. We offer information on pest and disease management strategies, including chemical and non-chemical methods. Our experts can help you identify pests and diseases, and provide guidance on the most effective control measures.</p>
+
+	<h2 id="irrigation">Irrigation</h2>
+	<p>Proper irrigation is critical for crop growth and development. We offer information on various irrigation methods, including drip irrigation, sprinkler irrigation, and flood irrigation. Our experts can also help you design an irrigation system that is appropriate for your farm.</p>
+
+	<h2 id="crop-marketing">Crop Marketing</h2>
+	<p>Marketing your crops is an essential part of farm management. We offer information on market trends, crop pricing, and marketing strategies. Our experts can also help you connect with buyers and develop marketing plans that maximize your profits.</p>
+  <footer>
+    <p1>For more details <br>
+      <a href="https://en.wikipedia.org/wiki/Data_science">agro.com</a></p1><br>
+      <p1>Developed by :- <br> Harsh Joshi <br>Tejas Punwatkar <br> Anurag Gaddamwar<br> Sakshi Didpaye <br></p1>
+      <p1>Contact US <br>
+          <a href="number">8459556333</a></p1>
+  </footer></body>
+</html>
